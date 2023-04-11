@@ -34,7 +34,13 @@ class MyCard extends StatelessWidget {
                 fontFamily: 'Source Sans Pro',
               ),
             ),
-            SizedBox(height: 20),
+            Divider(
+              color: Colors.white,
+              height: 20,
+              thickness: 1,
+              indent: 40,
+              endIndent: 40,
+            ),
             InfoBox(
               icon: Icons.phone,
               texto: '+55 (85) 99466-9927',
