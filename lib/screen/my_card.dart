@@ -43,7 +43,7 @@ class MyCard extends StatelessWidget {
             ),
             InfoBox(
               icon: Icons.phone,
-              texto: '+55 (85) 99466-9927',
+              texto: '+55 (86) 99466-9927',
             ),
             InfoBox(
               icon: Icons.email,

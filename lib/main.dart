@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromRGBO(106, 131, 189, 1)),
-        useMaterial3: false,
+        useMaterial3: true,
       ),
       home: const MyCard(),
     );
